@@ -1,2 +1,2 @@
 # schoolwork
-Only School Work
+Only Schoolwork
