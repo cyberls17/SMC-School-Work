@@ -8,7 +8,7 @@ public class Array {
 		int[] array = new int[5];
 
 		for (int i = 0; i < 5; i++) {
-			System.out.println(i + 1 + "¹ø ÀÔ·Â :");
+			System.out.println(i + 1 + "ë²ˆ ì…ë ¥ :");
 			array[i] = sc.nextInt();
 		}
 		
@@ -24,7 +24,7 @@ public class Array {
 			}
 		}
 		
-		System.out.println("°¡Àå Å« ¼ö´Â " + count + "¹øÂ°ÀÎ " + max);
+		System.out.println("ê°€ì¥ í° ìˆ˜ëŠ” " + count + "ë²ˆì§¸ì¸ " + max);
 
 	}
 

@@ -5,12 +5,12 @@ public class GradeExam {
 
 		Scanner sc = new Scanner(System.in);
 		Grade me = new Grade();
-		System.out.print("¼öÇĞ, °úÇĞ, ¿µ¾î ¼øÀ¸·Î 3°³ÀÇ Á¡¼ö ÀÔ·Â>>");
+		System.out.print("ìˆ˜í•™, ê³¼í•™, ì˜ì–´ ìˆœìœ¼ë¡œ 3ê°œì˜ ì ìˆ˜ ì…ë ¥>>");
 		me.math = sc.nextInt();
 		me.science = sc.nextInt();
 		me.english = sc.nextInt();
 		sc.close();
-		System.out.println("Æò±ÕÀº " + me.average());
+		System.out.println("í‰ê· ì€ " + me.average());
 	}
 
 }

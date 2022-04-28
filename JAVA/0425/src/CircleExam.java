@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class CircleExam {
 	public static void main(String args[]) {
 		 Scanner scan = new Scanner(System.in);
-		 System.out.print("¹İÁö¸§ °ª >>");
+		 System.out.print("ë°˜ì§€ë¦„ ê°’ >>");
 		 int radius = scan.nextInt();
 		 Circle c = new Circle(radius);
-		 // ÀÔ·Â¹ŞÀº ¹İÁö¸§ °ª radius º¯¼ö¿¡ ³Ö±â
-		 //  Circle Å¬·¡½º¸¦ ÅëÇØ °´Ã¼ c»ı¼º
-		 System.out.println("¹İÁö¸§ "+ c.radius + "ÀÎ ¿øÀÇ ³ĞÀÌ´Â " + c.Area() + "ÀÌ´Ù.");  // Ãâ·Â¹®
+		 // ì…ë ¥ë°›ì€ ë°˜ì§€ë¦„ ê°’ radius ë³€ìˆ˜ì— ë„£ê¸°
+		 //  Circle í´ë˜ìŠ¤ë¥¼ í†µí•´ ê°ì²´ cìƒì„±
+		 System.out.println("ë°˜ì§€ë¦„ "+ c.radius + "ì¸ ì›ì˜ ë„“ì´ëŠ” " + c.Area() + "ì´ë‹¤.");  // ì¶œë ¥ë¬¸
 	}
 }
 
@@ -18,7 +18,7 @@ class Circle{
 	public Circle(int a) {
 		this.radius = a;
 	}
-	 // »ı¼ºÀÚ(radius) °ª ÃÊ±âÈ­
+	 // ìƒì„±ì(radius) ê°’ ì´ˆê¸°í™”
 	
 	public double Area() {   
 		return radius*radius*3.14;

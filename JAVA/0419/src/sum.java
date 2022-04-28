@@ -6,9 +6,9 @@ public class sum {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("½ÃÀÛ ¼ıÀÚ: ");
+		System.out.print("ì‹œì‘ ìˆ«ì: ");
 		int a = sc.nextInt();
-		System.out.print("¸¶Áö¸· ¼ıÀÚ: ");
+		System.out.print("ë§ˆì§€ë§‰ ìˆ«ì: ");
 		int b = sc.nextInt();
 		sc.close();
 		int result = 0;
@@ -16,7 +16,7 @@ public class sum {
 		{
 			result += i;
 		}
-		System.out.println(a + "ºÎÅÍ " + b + "±îÁöÀÇ ÇÕÀº " + result);
+		System.out.println(a + "ë¶€í„° " + b + "ê¹Œì§€ì˜ í•©ì€ " + result);
 	}
 
 }

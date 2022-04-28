@@ -4,9 +4,9 @@ public class TriangleExam {
 	public static void main(String[] args) {
 
 		Triangle tr1 = new Triangle(10.2, 17.3);
-		System.out.println("Ã¹ ¹øÂ° »ï°¢ÇüÀÇ ³ĞÀÌ´Â " + tr1.Area() + " ÀÔ´Ï´Ù.");
+		System.out.println("ì²« ë²ˆì§¸ ì‚¼ê°í˜•ì˜ ë„“ì´ëŠ” " + tr1.Area() + " ì…ë‹ˆë‹¤.");
 		tr1.edit(7.5, 9.2);
-		System.out.println("µÎ ¹øÂ° »ï°¢ÇüÀÇ ³ĞÀÌ´Â " + tr1.Area() + " ÀÔ´Ï´Ù.");
+		System.out.println("ë‘ ë²ˆì§¸ ì‚¼ê°í˜•ì˜ ë„“ì´ëŠ” " + tr1.Area() + " ì…ë‹ˆë‹¤.");
 		
 		
 	}
