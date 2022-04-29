@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #0c3268;
+            text-align: center;
+            color: rgb(243, 243, 243);
+        }
+        p {
+            margin-top: 80px;
+            font-size: 2em;
+            font-weight: 700;
+            text-shadow: 1px 2px 1px #000;
+        }
+        strong {
+            font-size: 2.2em;
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <script>
+        var subject = prompt("과목번호를 입력하세요! 1-컴보, 2-응프, 3-데베","1");
+        switch(subject) {
+            case "1":
+                document.write("<p>컴보 과목은 <strong>501호</strong>에서 진행됩니다!</p>");
+                break;
+            case "2":
+                document.write("<p>응프 과목은 <strong>403호</strong>에서 진행됩니다!</p>");
+                break;
+            case "3":
+                document.write("<p>데베 과목은 <strong>502호</strong>에서 진행됩니다!</p>");
+                break;
+            default:
+                alert("1, 2, 3번 중에서 고르세요");
+        }
+    </script>
+</body>
+
+</html>
